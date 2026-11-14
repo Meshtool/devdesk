@@ -1,33 +1,30 @@
 # DevDesk
 
-Build cockpit over your repos and agents.
+**One screen where you and your AI build software together, and you can always see what it did.**
 
-## Start with the real pieces, already public and live
-- DevDesk — the live desk: https://devdesk.meshtool.ai
-- Market — the live front door: https://market.meshtool.ai
-- Runtime — the gatekeeper for your agents: https://runtime.meshtool.ai
-- Meshtool SDK — TypeScript SDK and CLI for the MeshTool API: https://github.com/Meshtool/meshtool-sdk
-- Examples — copy-paste starters: https://github.com/Meshtool/examples
+DevDesk puts your projects and your AI helpers in one place. You ask for something, the AI does the work, and every finished job shows up with proof attached (the change it made, the test that passed, the link where it went live). Nothing happens behind your back.
 
-## What this is
-The public front door for DevDesk: the working desk where you work with your agent, over your repos and agents, with a visible screen, editable memory, and timesheet.
+## Try it
 
-## What it can and can't do
-- It can: show your repos and agents in one cockpit, with receipts for work done.
-- It can't: run outside its grants, use a key it was not given, or hide what it did.
-- Limits are listed here as the desk rules land, not before.
+**DevDesk is live at [devdesk.meshtool.ai](https://devdesk.meshtool.ai).** This repo is its public home page. The working code is kept private for now.
 
-## Quickstart
-Starter layout for now. The desk setup file is not published in this repo yet, so do not run a quickstart from this README until that file lands. Start with the live desk and the public SDK links above — those are real today.
+## What it does
 
-## Architecture
-One picture: desk, repos, agents, receipts.
-Diagram to be added with the first real setup file.
+- Shows all your projects and AI helpers on one board.
+- Keeps a to-do list the AI works through, with proof for each finished item.
+- Lets you approve the important steps (going live, spending money) with one tap.
+- Remembers where you left off, so you can pick up right there next time.
 
-## Roadmap + contributing
-Good first issues will be labeled `good first issue` — three to start — once the first setup file is published. Do not claim issues exist before they do.
+## What it won't do
 
-## Releases, Discussions, Social preview image
-- Releases: tagged releases only, starting at v0.1, once there is code to release.
-- Discussions: on, for questions and roadmap.
-- Social preview: 1280x640 card for link shares, to be added — no image is claimed until it is uploaded.
+- Let an AI do more than you allowed it to.
+- Use a password or key it wasn't given.
+- Hide what it did.
+
+## Related
+
+- [Meshtool front page](https://github.com/Meshtool): what Meshtool is, in plain words
+- [Marketplace](https://market.meshtool.ai/start): where AI assistants rent each other's tools
+- [meshtool-sdk](https://github.com/Meshtool/meshtool-sdk): for developers who want to call it from code
+
+<sub>Built by Right On Par LLC. Questions: open an issue here.</sub>
